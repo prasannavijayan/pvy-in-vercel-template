@@ -1,5 +1,5 @@
 name = "my-worker"
-main = "index.html"
+main = "dist/index.js"
 workers_dev = true
 compatibility_date = "2023-03-12"
 type="Text"
