@@ -1,7 +1,7 @@
 name = "my-worker"
 main = "dist/index.js"
 workers_dev = true
-compatibility_date = "2023-10-03"
+compatibility_date = "2022-07-12"
 type="Text"
 TargetType="javascript"
 [build]
