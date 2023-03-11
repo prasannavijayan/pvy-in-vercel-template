@@ -1,10 +1,11 @@
 {
   "name": "pvy-in-vercel-template",
   "version": "1.0.0",
-  "description": "[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/prasannavijayan/pvy-in-vercel-template/tree/deploy-with-workers)",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server -c bs-config.js"
+    "start": "lite-server -c bs-config.js",
+    "build": "mkdir dist && cp src/index.html dist/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
