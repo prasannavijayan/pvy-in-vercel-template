@@ -1,6 +1,8 @@
 name = "my-worker"
 main = "index.html"
+workers_dev = true
 compatibility_date = "2023-03-12"
-rules = [
-  { type = "Text", globs = ["**/*.html"], fallthrough = true }
-]
+type="Text"
+
+[build]
+command = "npm ci && npm run build"
